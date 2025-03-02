@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(135deg, #7a43d3, #6600ff, #c4ba35);
+
+}
+
+
+
+
+
+.dashboad{
+    display: flex;
+    
+}
+.dashboad a {
+    text-decoration: none;
+    color: white;
+    margin-right: 8px;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+}
+.dashboad a:hover{
+    color: goldenrod;
+}
+.img{
+    border-radius: 30px;
+    
+}
+hr{
+    color: white;
+}
+
+.textcolor{
+    color: rgb(240, 204, 4);
+}
+.brandname{
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+
+
+.cardsimg{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+@media (max-width:760px){
+    .col-sm-3 {
+        width: 25%;
+    }
+}
+@media (max-width:860){
+    .col-sm-3 {
+        width: 25%;
+    }
+}
+.boot{
+    position: relative;
+    top: 10px;
+}
+
+.container-ul {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    
+}
