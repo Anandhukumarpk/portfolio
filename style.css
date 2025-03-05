@@ -140,3 +140,12 @@ footer {
 i{
     color: goldenrod;
 }
+
+footer a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+footer a:hover{
+    color: rgb(223, 109, 16);
+}
